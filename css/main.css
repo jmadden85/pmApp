@@ -31,6 +31,7 @@ header .instructions {
     background: linear-gradient(to bottom, #f9f9f9 0%,#eeeeee 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
     padding:55px 0 20px 0;
+    height:156px;
 }
 
 header .instructions h1 {
@@ -42,6 +43,16 @@ header .instructions h1 {
     margin:0 auto;
 }
 
+header .instructions div {
+    background: url('../img/sprite.png') 70px -362px no-repeat transparent;
+    text-align: left;
+    font-size: 1.6em;
+    font-weight: bold;
+    width: 410px;
+    line-height: 1.1;
+    margin: -45px auto 0;
+    padding-top: 130px;
+}
 
 
 section {
