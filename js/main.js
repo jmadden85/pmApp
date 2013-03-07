@@ -19,6 +19,8 @@ $(document).ready(function() {
             that.html('Try Again');
         }
 
+        window.location.href = 'http://beardbro.com/mailTo/association.zip';
+
         $(document).scrollTop(0);
 
     });
