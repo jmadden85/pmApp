@@ -78,7 +78,8 @@ section img {
 section .btn {
     margin:10px auto 0;
     width:539px;
-    height:60px;
+    height:90px;
+    font-size:28px;
 }
 
 footer {
