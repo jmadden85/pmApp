@@ -3,7 +3,7 @@ $(document).ready(function() {
     var viewport = document.querySelector("meta[name=viewport]");
 
     if ( screen.width > 640 ) {
-        viewport.setAttribute('content', 'width=1024; initial-scale=1.0;');
+        viewport.setAttribute('content', 'width=device-width; initial-scale=1.0;');
     }
 
     $('#goButton').click(function() {
